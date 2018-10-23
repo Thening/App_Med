@@ -1,0 +1,22 @@
+page-inspersonel {
+
+	.btn{
+	width: 50%;
+	}
+	.marg{
+		width:75%;
+		margin-left: 15%;
+		padding-top: 10px;
+	}
+	.back{
+		background-image: url( ../assets/imgs/fond.jpg);
+		background-repeat:no-repeat;
+		background-position:fixed;
+		margin-top: 11%;
+		//background-size:cover;
+	}
+	.item{
+		background-color: rgba(255,255,255,0.0);
+	}
+}
+

@@ -1,0 +1,12 @@
+page-home {
+    .back{
+		background-image: url( ../assets/imgs/fond.jpg);
+		background-repeat:no-repeat;
+		background-position:fixed;
+		margin-top: 10%;
+		//background-size:cover;
+    }
+    .scroll .scroll-content{
+        overflow:hidden;
+        }
+}

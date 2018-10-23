@@ -1,0 +1,7 @@
+{
+  "name": "@pp_Med",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

@@ -1,0 +1,31 @@
+<ion-header>
+
+	<ion-navbar>
+	</ion-navbar>
+  
+  </ion-header>
+  
+<ion-content class="bac-img scroll" padding >
+	<div>
+		<ion-list inset class="desc">	
+			<ion-item class="item">
+			<ion-label color="dark" style="font-size:18px" stacked ><b> d'utilisateur:</b></ion-label>
+			<ion-input type="text" placeholder=" entrer votre pseudo ou mail" autofocus ></ion-input>
+			</ion-item><br><br><br>
+
+			<ion-item class="item">
+			<ion-label color="dark" style="font-size:18px " stacked ><b>mot de passe:</b></ion-label>
+			<ion-input  type="password" placeholder=" entrer votre mot de passe" ></ion-input>
+			</ion-item>
+		</ion-list>	
+	</div>
+	<p class="oublie" style="font-family:open-sans; font-size:14px">
+		vous avez oublié votre mot de passe?
+	</p>
+	<div text-center>
+		<button class="btn-log" ion-button color= blue round outline (click)="connexion()">entrer</button><br>
+		<button class="btn-sig" ion-button color= blue round outline (click)="choix()">s'incrire</button>
+			
+	</div>
+</ion-content>
+
