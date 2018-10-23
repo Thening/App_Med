@@ -1,12 +1,18 @@
-<ion-header>
+<ion-header class="head" >
 <br>
-
+<div>
     <button class="menu" style="color: clear" clearion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title style="text-align:center"><Menu:context></Menu:context></ion-title>
-  
-  
+ </div>
+ <div>
+    <ion-title >Menu</ion-title>
+  </div>
+  <div class="deconect">
+    <button style="color: clear"  (click)="deconnexion()">
+      <ion-icon name="log-out"></ion-icon>
+    </button>
+  </div>
 </ion-header>
 
 <ion-content class="back scroll" padding>

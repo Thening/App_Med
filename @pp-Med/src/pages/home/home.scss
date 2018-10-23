@@ -9,7 +9,13 @@ page-home {
     .scroll .scroll-content{
         overflow:hidden;
         }
-    .menu{
-      margin-top: 10px;
+    .head{
+     position: absolute;
+     display: flex;
+     padding-top: 30px;
+     width: 100%;
+    }
+    .deconect{
+        padding-left: 65%;
     }
 }
