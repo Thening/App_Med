@@ -12,6 +12,7 @@ import { AcceuilPage } from '../pages/acceuil/acceuil';
 
 
 
+
 @Component({
   templateUrl: 'app.html'
 })

@@ -20,6 +20,8 @@ import { InspersonelPage } from '../pages/inspersonel/inspersonel';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
+
+
 @NgModule({
   declarations: [
     MyApp,
