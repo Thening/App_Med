@@ -30,10 +30,10 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     CategoriePage,
     InspatientPage,
     InspersonelPage,
-    DossiermedicalPage,
-    ActualitesPage,
-    RecherchesPage,
-    TchatPage
+    DossiermedicalPage
+
+  
+   
   ],
   imports: [
     BrowserModule,
@@ -49,10 +49,10 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     CategoriePage,
     InspatientPage,
     InspersonelPage,
-    DossiermedicalPage,
-    ActualitesPage,
-    RecherchesPage,
-    TchatPage
+    DossiermedicalPage
+   
+   
+ 
   ],
   providers: [
     StatusBar,

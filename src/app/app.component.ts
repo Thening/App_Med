@@ -5,10 +5,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { HomePage } from '../pages/home/home';
 import { DossiermedicalPage } from '../pages/dossiermedical/dossiermedical';
-import { ActualitesPage } from '../pages/actualites/actualites';
-import { RecherchesPage } from '../pages/recherches/recherches';
-import { TchatPage } from '../pages/tchat/tchat';
-import { AcceuilPage } from '../pages/acceuil/acceuil';
+import { ConnexionPage } from '../pages/connexion/connexion';
+
+
 
 
 
@@ -18,7 +17,7 @@ import { AcceuilPage } from '../pages/acceuil/acceuil';
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any =AcceuilPage;
+  rootPage: any =HomePage;
 
   pages: Array<{title: string, component: any}>;
 
@@ -29,9 +28,10 @@ export class MyApp {
     this.pages = [
       { title: 'Home', component: HomePage },
       { title: 'Dossiermedical', component: DossiermedicalPage },
-      { title: 'Actualites', component: ActualitesPage },
-      { title: 'Recherches', component: RecherchesPage },
-      { title: 'Tchat', component: TchatPage }
+      { title: 'Actualites', component: HomePage },
+      { title: 'Recherches', component: HomePage },
+      { title: 'Tchat', component: HomePage },
+      { title: 'Se déconecter', component: ConnexionPage },
     ];
 
   }

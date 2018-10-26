@@ -1,12 +1,33 @@
 page-categorie {
-    .back{
+   /* .back{
 		background-image: url( ../assets/imgs/fond.jpg);
 		background-repeat:no-repeat;
         background-position:fixed;
         margin-top: 11%;
 		//background-size:cover;
     }
+    .back{
+        background-image: linear-gradient(blue,white);
+        position: relative;
+    }*/
     .scroll .scroll-content{
         overflow:hidden;
         }
+        .img{
+            margin-left: 25%;
+            }
+    p{
+       padding-top: 16%;
+        padding-bottom: 10%;
+        padding-left: 5%;
+
+    }
+    .btn-pa {
+        width: 90%;
+        }
+        .btn-per{
+        width:90%;
+        margin-top: 6vh;
+        }
+    
 }

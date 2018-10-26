@@ -1,12 +1,30 @@
 page-home {
-    .back{
+  /*  .back{
 		background-image: url( ../assets/imgs/fond.jpg);
 		background-repeat:no-repeat;
 		background-position:fixed;
 		margin-top: 10%;
 		//background-size:cover;
-    }
-    .scroll .scroll-content{
-        overflow:hidden;
-        }
+    }*/
+  
+        .head{
+          position: absolute;
+          display: flex;
+          padding-top: 30px;
+          width: 100%;
+         }
+         .deconect{
+             padding-left: 65%;
+         }
+         #urgence{
+           border-radius: 60%;
+           background-color: white;
+           margin-left: 80%;
+         }
+         .article{
+           border: 1px solid rgb(104, 139, 214);
+         }
+         #aligne{
+           margin-left: 32%;
+         }
 }

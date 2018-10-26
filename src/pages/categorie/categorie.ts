@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { InspatientPage } from '../inspatient/inspatient';
+
 import { InspersonelPage } from '../inspersonel/inspersonel';
 
 /**
@@ -17,7 +17,7 @@ import { InspersonelPage } from '../inspersonel/inspersonel';
 })
 export class CategoriePage {
 
-  nextPage1=InspatientPage;
+
   nextPage2=InspersonelPage;
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }

@@ -1,16 +1,32 @@
-<ion-header>
-  <ion-navbar>
-    <button ion-button menuToggle>
-      <ion-icon name="menu"></ion-icon>
-    </button>
-    <ion-title>Home</ion-title>
-  </ion-navbar>
+<ion-header class="head">
+    <br>
+    <div>
+        <button class="menu" style="color: clear" clearion-button menuToggle>
+          <ion-icon name="menu"></ion-icon>
+        </button>
+     </div>
+     <div id="aligne">
+        <ion-title >Accueil</ion-title>
+      </div>
+
 </ion-header>
 
-<ion-content class="back scroll" padding>
+<ion-content class="back" padding>
+  <div>cliquez sur le bouton d'urgence pour consulter tres rapidement un dossier 
+      <button id="urgence" (click)="urgence()"><img src="../assets/imgs/urg.JPG" alt="en cas d'urgence"></button>
+  </div>
+    
+  <div class="article">
+      <img src="../assets/imgs/Menu1.PNG" alt="en cas d'urgence">
+  </div>
+  <div  class="article">
+      <img src="../assets/imgs/Menu2.PNG" alt="en cas d'urgence">
+  </div>
+  <div  class="article">
+      <img src="../assets/imgs/Menu2.PNG" alt="en cas d'urgence">
+  </div>
+  </ion-content>
 
-  <button ion-button secondary menuToggle>Toggle Menu</button>
-</ion-content>
 
 <ion-footer padding>
 
