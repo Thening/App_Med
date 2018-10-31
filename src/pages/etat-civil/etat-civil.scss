@@ -1,0 +1,32 @@
+page-etat-civil {
+    .head{
+        position: absolute;
+        display: flex;
+        padding-top: 30px;
+        width: 100%;
+       }
+       .desc{
+		margin-top: 15%;
+		width: 90%; 
+		margin-left: 5%;
+    }
+    #menu{
+        margin-left: 2%;
+    }
+       #aligne{
+        margin-left: 28%;
+      }
+      .ondiv{
+        border:1px solid blue;
+       margin-top: 5%;
+    }
+    .btn-suiv{
+        width:90%;
+        margin-top: 10%;
+        margin-left: 5%;
+    }
+    #img{
+        margin-left: 24%;
+    }
+
+}

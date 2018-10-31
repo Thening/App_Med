@@ -1,0 +1,60 @@
+<ion-header class="head">
+    <br>
+    <div id="menu">
+        <button class="menu" style="color: clear" clearion-button menuToggle>
+          <ion-icon name="menu"></ion-icon>
+        </button>
+     </div>
+     <div id="aligne">
+        <ion-title >Etat civil</ion-title>
+     </div>
+     <div id="img">
+       <img src="../assets/imgs/ptit.JPG" alt="mon logo mignature">
+     </div>
+</ion-header>
+
+<ion-content padding>
+    <ion-list inset class="desc">	
+        <div class="ondiv">
+            <ion-item class="item" >
+            <ion-input type="password" placeholder=" NOM" ></ion-input>
+            </ion-item>
+          </div>
+          <div class="ondiv">
+              <ion-item class="item" >
+              <ion-input type="password" placeholder="PRENOM" ></ion-input>
+              </ion-item>
+            </div>
+            <div class="ondiv">
+                <ion-item class="item" >
+                <ion-input type="password" placeholder="EMAIL" ></ion-input>
+                </ion-item>
+              </div>
+                <div class="ondiv">
+                    <ion-item class="item" >
+                    <ion-input type="password" placeholder="NUM PERSO" ></ion-input>
+                    </ion-item>
+                  </div>
+                  <div class="ondiv">
+                      <ion-item class="item" >
+                      <ion-input type="password" placeholder="NUM D'URGENCE" ></ion-input>
+                      </ion-item>
+                    </div>
+                    <div class="ondiv">
+                        <ion-item class="item" >
+                        <ion-input type="password" placeholder="ADRESSE" ></ion-input>
+                        </ion-item>
+                      </div>
+                      <div class="ondiv">
+                          <ion-item class="item" >
+                          <ion-input type="password" placeholder="SEXE" ></ion-input>
+                          </ion-item>
+                        </div>
+                        <div class="ondiv">
+                            <ion-item class="item" >
+                            <ion-input type="password" placeholder="SIT MATRIM" ></ion-input>
+                            </ion-item>
+                          </div>
+            </ion-list>	
+            <button class="btn-suiv" ion-button color= blue  (click)="suivant()">suivant</button><br>
+</ion-content>

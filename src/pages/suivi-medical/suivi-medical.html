@@ -1,0 +1,139 @@
+<ion-header class="head">
+  <br>
+  <div id="menu">
+    <button class="menu" style="color: clear" clearion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+  </div>
+  <div id="aligne">
+    <ion-title>suivi médical</ion-title>
+  </div>
+  <div id="img">
+    <img src="../assets/imgs/ptit.JPG" alt="mon logo mignature">
+  </div>
+</ion-header>
+
+
+<ion-content padding >
+  <ion-list class="flex" style="margin-left: 5%; width: 90%">
+
+    <div style="display: flex;width: 90%">
+
+      <div> <img src="../assets/imgs/blood.PNG" alt="groupe sanguin"></div>
+
+      <div>
+        <select name="group" id="group">
+          <option value="A+"><b>A+</b></option>
+          <option value="A-"><b>A-</b></option>
+          <option value="B+"><b>B+</b></option>
+          <option value="B-"><b>B-</b></option>
+          <option value="AB+"><b>AB+</b></option>
+          <option value="AB-"><b>AB-</b></option>
+          <option value="O+"><b>O+</b></option>
+          <option value="O-"><b>O-</b></option>
+        </select>
+      </div>
+
+      <div style="border:1px solid; width: 100%">
+        <label style="margin-left: 3%" name="masse">Masse</label>
+        <input style="width: 50%"  type="text">
+      </div>
+
+      <div style="margin-left: 5%">
+        <label name="taille">Taille</label>
+        <input  style="width: 50%"   type="text">
+      </div>
+
+    </div>
+
+    <div style="display: flex; margin-top: 4%">
+
+      <div>
+        <label name="sucre">Sucre</label>
+        <input style="width: 60%" type="text">
+      </div>
+
+      <div>
+        <label name="Pouls">Pouls</label>
+        <input style="width: 60%" type="text">
+      </div>
+
+      <div>
+        <label name="TA">TA</label>
+        <input style="width: 60%" type="text">
+      </div>
+
+    </div>
+
+
+    <div style="display: flex; margin-top: 5%;">
+
+      <div>
+        <ion-label>Test d'Emmel:</ion-label>
+      </div>
+
+      <div>
+        <ion-label><b>NON</b></ion-label>
+        <ion-radio value="NON"></ion-radio>
+
+      </div>
+
+      <div style="margin-left: 10%">
+        <ion-label><b>OUI</b></ion-label>
+        <ion-radio value="oui"></ion-radio>
+        <input style="width: 80%" type="text">
+      </div>
+
+    </div>
+
+
+    <div style="display: flex ; margin-top: 5%">
+
+      <div>
+        <label name="cholesterole">Cholest</label>
+        <input style="width: 50%" type="text">
+      </div>
+      <div style="margin-left: 6%">
+        <label name="albumine">Albumine</label>
+        <input style="width: 50%" type="text">
+      </div>
+
+    </div>
+
+    <div style="margin-top: 5%; text-align: center">
+      <div>
+        <label><b>Allergies:</b></label>
+      </div>
+
+      <div style="margin-top: 5%"> 
+        <select name="allergie">
+          <option>Allergie respiratoire</option>
+          <option>allergie alimentaire</option>
+          <option>allergie </option>
+          <option>Autres</option>
+        </select>
+      </div>
+
+    </div>
+
+    <div style="margin-top: 5%; text-align: center">
+        <div>
+          <label><b>Maladies:</b></label>
+        </div>
+  
+        <div style="margin-top: 5%">
+          <select name="maladie">
+            <option>cancer du sein</option>
+            <option>hepatite B</option>
+            <option>myopie </option>
+            <option>Autres</option>
+          </select>
+        </div>
+  
+      </div>
+
+  </ion-list>
+  <div style="margin-top: 15%" >
+      <button style="width: 90%; margin-left:5%" class="btn" ion-button color= blue  (click)="connexion()">Sauvgarder</button>
+    </div>
+</ion-content>

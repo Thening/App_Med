@@ -1,3 +1,28 @@
 page-dossiermedical {
-
+    .head{
+        position: absolute;
+        display: flex;
+        padding-top: 30px;
+        width: 100%;
+       }
+       #aligne{
+        margin-left: 23%;
+      }
+      #menu{
+        margin-left: 2%;
+    }
+    .scroll .scroll-content{
+        overflow:hidden;
+        }
+        .img{
+            margin-left: 25%;
+            }
+            .btn-pa {
+                width: 90%;
+                }
+                .btn-per{
+                width:90%;
+                margin-top: 6vh;
+                }
+            
 }

@@ -11,13 +11,14 @@ import { ConnexionPage } from '../pages/connexion/connexion';
 
 
 
+
 @Component({
   templateUrl: 'app.html'
 })
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any =HomePage;
+  rootPage: any =DossiermedicalPage;
 
   pages: Array<{title: string, component: any}>;
 
@@ -44,6 +45,7 @@ export class MyApp {
       this.splashScreen.hide();
     });
   }
+
 
   openPage(page) {
     // Reset the content nav to have just this page

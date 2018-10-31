@@ -7,9 +7,7 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
 import { DossiermedicalPage } from '../pages/dossiermedical/dossiermedical';
-import { ActualitesPage } from '../pages/actualites/actualites';
-import { RecherchesPage } from '../pages/recherches/recherches';
-import { TchatPage } from '../pages/tchat/tchat';
+import { EtatCivilPage } from '../pages/etat-civil/etat-civil';
 
 import { AcceuilPage } from '../pages/acceuil/acceuil';
 import { ConnexionPage } from '../pages/connexion/connexion';
@@ -19,6 +17,8 @@ import { InspersonelPage } from '../pages/inspersonel/inspersonel';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { SuiviMedicalPage } from '../pages/suivi-medical/suivi-medical';
+import { ConsulterPage } from '../pages/consulter/consulter';
 
 @NgModule({
   declarations: [
@@ -30,7 +30,10 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     CategoriePage,
     InspatientPage,
     InspersonelPage,
-    DossiermedicalPage
+    DossiermedicalPage,
+    EtatCivilPage,
+    SuiviMedicalPage,
+    ConsulterPage
 
   
    
@@ -49,7 +52,10 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     CategoriePage,
     InspatientPage,
     InspersonelPage,
-    DossiermedicalPage
+    DossiermedicalPage,
+    EtatCivilPage,
+    SuiviMedicalPage,
+    ConsulterPage
    
    
  

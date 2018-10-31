@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams, Icon } from 'ionic-angular';
+import { EtatCivilPage } from '../etat-civil/etat-civil';
+import { ConsulterPage } from '../consulter/consulter';
 
 /**
  * Generated class for the DossiermedicalPage page.
@@ -16,6 +18,13 @@ import { IonicPage, NavController, NavParams, Icon } from 'ionic-angular';
 export class DossiermedicalPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+  }
+
+  creer() {
+    this.navCtrl.push(EtatCivilPage);
+  }
+  urgence(){
+    this.navCtrl.push(ConsulterPage);
   }
 
   ionViewDidLoad() {
