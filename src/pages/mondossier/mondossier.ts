@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { ModifdossierPage } from '../modifdossier/modifdossier';
 
 /**
  * Generated class for the MondossierPage page.
@@ -16,6 +17,9 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 export class MondossierPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+  }
+  modifier(){
+    this.navCtrl.push(ModifdossierPage);
   }
 
   ionViewDidLoad() {

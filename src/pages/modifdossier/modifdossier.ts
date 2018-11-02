@@ -3,7 +3,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { MondossierPage } from '../mondossier/mondossier';
 
 /**
- * Generated class for the ConsulterPage page.
+ * Generated class for the ModifdossierPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -11,19 +11,19 @@ import { MondossierPage } from '../mondossier/mondossier';
 
 @IonicPage()
 @Component({
-  selector: 'page-consulter',
-  templateUrl: 'consulter.html',
+  selector: 'page-modifdossier',
+  templateUrl: 'modifdossier.html',
 })
-export class ConsulterPage {
+export class ModifdossierPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
-  mon(){
+  sauvegarder(){
     this.navCtrl.push(MondossierPage);
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad ConsulterPage');
+    console.log('ionViewDidLoad ModifdossierPage');
   }
 
 }

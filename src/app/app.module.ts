@@ -19,6 +19,10 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { SuiviMedicalPage } from '../pages/suivi-medical/suivi-medical';
 import { ConsulterPage } from '../pages/consulter/consulter';
+import { SQLite } from '@ionic-native/sqlite';
+import { MondossierPage } from '../pages/mondossier/mondossier';
+import { ModifdossierPage } from '../pages/modifdossier/modifdossier';
+
 
 @NgModule({
   declarations: [
@@ -26,8 +30,10 @@ import { ConsulterPage } from '../pages/consulter/consulter';
     HomePage,
     ListPage,
     AcceuilPage,
+    ModifdossierPage,
     ConnexionPage,
     CategoriePage,
+    MondossierPage,
     InspatientPage,
     InspersonelPage,
     DossiermedicalPage,
@@ -54,8 +60,11 @@ import { ConsulterPage } from '../pages/consulter/consulter';
     InspersonelPage,
     DossiermedicalPage,
     EtatCivilPage,
+    ModifdossierPage,
+    MondossierPage,
     SuiviMedicalPage,
     ConsulterPage
+   
    
    
  
@@ -63,6 +72,7 @@ import { ConsulterPage } from '../pages/consulter/consulter';
   providers: [
     StatusBar,
     SplashScreen,
+    SQLite,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
